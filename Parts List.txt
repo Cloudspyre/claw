@@ -1,0 +1,25 @@
+Parts List and Links
+
+Here’s a list of the parts we used and where you can get them.  Swap out the parts as you’d like!  When you add it up it can get a little pricey, but remember, you can add pieces a few at a time till you have a nice collection.  Then you can swap out the servos and brackets for other projects.
+
+MakerShed
+http://www.makershed.com
+Arduino Uno - http://www.makershed.com/Arduino_Uno_Rev_3_Make_SMD_Version_p/mksp99.htm
+Red Bear Lab BLE Shield - http://www.makershed.com/Bluetooth_Low_Energy_BLE_Shield_for_Arduino_2_0_p/mkrbl1.htm
+Breadboard - http://www.makershed.com/product_p/mkkn2.htm
+Jumper Wires - http://www.makershed.com/product_p/mkseeed3.htm
+9 volt Battery Case - http://www.makershed.com/product_p/msbat1.htm
+
+Radio Shack
+http://www.radioshack.com
+http://www.radioshack.com/product/index.jsp?productId=2062218
+
+Robot Shop
+http://www.robotshop.com
+Lynxmotion Pan and Tilt Kit / Aluminium - http://www.robotshop.com/en/lynxmotion-pan-and-tilt-kit-aluminium2.html
+Lynxmotion Aluminum Tubing - 3" AT-02 - http://www.robotshop.com/en/lynxmotion-aluminum-tubing-at-02.html
+Lynxmotion Aluminum Tubing Connector Hub (pair) HUB-08 - http://www.robotshop.com/en/lynxmotion-hub-08-connector-hub.html
+Lynxmotion Little Grip Kit (With Servos) - http://www.robotshop.com/en/lynxmotion-little-grip-kit.html
+Lynxmotion Little Grip Attachment Kit LGA-KT - http://www.robotshop.com/en/lynxmotion-little-grip-kit-lga-kt.html
+Lynxmotion Aluminum Multi-Purpose Servo Bracket Two Pack ASB-04 - http://www.robotshop.com/en/lynxmotion-aluminum-multi-purpose-servo.html
+
