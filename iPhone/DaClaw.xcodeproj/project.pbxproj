@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA40F6F6188C45C400B11720 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = AA40F6F5188C45C400B11720 /* background.png */; };
+		AA8418B7185A445B0032FB94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8418B6185A445B0032FB94 /* Foundation.framework */; };
+		AA8418B9185A445B0032FB94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8418B8185A445B0032FB94 /* CoreGraphics.framework */; };
+		AA8418BB185A445B0032FB94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8418BA185A445B0032FB94 /* UIKit.framework */; };
+		AA8418C1185A445B0032FB94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA8418BF185A445B0032FB94 /* InfoPlist.strings */; };
+		AA8418C3185A445B0032FB94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8418C2185A445B0032FB94 /* main.m */; };
+		AA8418C7185A445B0032FB94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8418C6185A445B0032FB94 /* AppDelegate.m */; };
+		AA8418CA185A445B0032FB94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8418C8185A445B0032FB94 /* Main.storyboard */; };
+		AA8418CD185A445B0032FB94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8418CC185A445B0032FB94 /* ViewController.m */; };
+		AA8418CF185A445B0032FB94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8418CE185A445B0032FB94 /* Images.xcassets */; };
+		AA8418D6185A445B0032FB94 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8418D5185A445B0032FB94 /* XCTest.framework */; };
+		AA8418D7185A445B0032FB94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8418B6185A445B0032FB94 /* Foundation.framework */; };
+		AA8418D8185A445B0032FB94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8418BA185A445B0032FB94 /* UIKit.framework */; };
+		AA8418E0185A445B0032FB94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA8418DE185A445B0032FB94 /* InfoPlist.strings */; };
+		AA8418E2185A445B0032FB94 /* DaClawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8418E1185A445B0032FB94 /* DaClawTests.m */; };
+		AA8418F1185A7B6B0032FB94 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8418EF185A7B6B0032FB94 /* BLE.m */; };
+		AA8418F3185A7B9A0032FB94 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8418F2185A7B9A0032FB94 /* CoreBluetooth.framework */; };
+		AA84190A185B65D00032FB94 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8418F8185B65D00032FB94 /* AFHTTPRequestOperation.m */; };
+		AA84190B185B65D00032FB94 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8418FA185B65D00032FB94 /* AFHTTPRequestOperationManager.m */; };
+		AA84190C185B65D00032FB94 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8418FC185B65D00032FB94 /* AFHTTPSessionManager.m */; };
+		AA84190D185B65D00032FB94 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8418FF185B65D00032FB94 /* AFNetworkReachabilityManager.m */; };
+		AA84190E185B65D00032FB94 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA841901185B65D00032FB94 /* AFSecurityPolicy.m */; };
+		AA84190F185B65D00032FB94 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AA841903185B65D00032FB94 /* AFURLConnectionOperation.m */; };
+		AA841910185B65D00032FB94 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AA841905185B65D00032FB94 /* AFURLRequestSerialization.m */; };
+		AA841911185B65D00032FB94 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AA841907185B65D00032FB94 /* AFURLResponseSerialization.m */; };
+		AA841912185B65D00032FB94 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA841909185B65D00032FB94 /* AFURLSessionManager.m */; };
+		AA841916185B65DB0032FB94 /* sendgrid.m in Sources */ = {isa = PBXBuildFile; fileRef = AA841915185B65DB0032FB94 /* sendgrid.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA8418D9185A445B0032FB94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA8418AB185A445B0032FB94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA8418B2185A445B0032FB94;
+			remoteInfo = DaClaw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA40F6F5188C45C400B11720 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		AA8418B3185A445B0032FB94 /* DaClaw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaClaw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8418B6185A445B0032FB94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA8418B8185A445B0032FB94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA8418BA185A445B0032FB94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA8418BE185A445B0032FB94 /* DaClaw-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DaClaw-Info.plist"; sourceTree = "<group>"; };
+		AA8418C0185A445B0032FB94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA8418C2185A445B0032FB94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA8418C4185A445B0032FB94 /* DaClaw-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DaClaw-Prefix.pch"; sourceTree = "<group>"; };
+		AA8418C5185A445B0032FB94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA8418C6185A445B0032FB94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA8418C9185A445B0032FB94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA8418CB185A445B0032FB94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA8418CC185A445B0032FB94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA8418CE185A445B0032FB94 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA8418D4185A445B0032FB94 /* DaClawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaClawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8418D5185A445B0032FB94 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AA8418DD185A445B0032FB94 /* DaClawTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DaClawTests-Info.plist"; sourceTree = "<group>"; };
+		AA8418DF185A445B0032FB94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA8418E1185A445B0032FB94 /* DaClawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaClawTests.m; sourceTree = "<group>"; };
+		AA8418EE185A7B6B0032FB94 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		AA8418EF185A7B6B0032FB94 /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		AA8418F0185A7B6B0032FB94 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+		AA8418F2185A7B9A0032FB94 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		AA8418F7185B65D00032FB94 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		AA8418F8185B65D00032FB94 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		AA8418F9185B65D00032FB94 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		AA8418FA185B65D00032FB94 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		AA8418FB185B65D00032FB94 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		AA8418FC185B65D00032FB94 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		AA8418FD185B65D00032FB94 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		AA8418FE185B65D00032FB94 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		AA8418FF185B65D00032FB94 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		AA841900185B65D00032FB94 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		AA841901185B65D00032FB94 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		AA841902185B65D00032FB94 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		AA841903185B65D00032FB94 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		AA841904185B65D00032FB94 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		AA841905185B65D00032FB94 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		AA841906185B65D00032FB94 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		AA841907185B65D00032FB94 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		AA841908185B65D00032FB94 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		AA841909185B65D00032FB94 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		AA841914185B65DB0032FB94 /* sendgrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sendgrid.h; sourceTree = "<group>"; };
+		AA841915185B65DB0032FB94 /* sendgrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sendgrid.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA8418B0185A445B0032FB94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8418F3185A7B9A0032FB94 /* CoreBluetooth.framework in Frameworks */,
+				AA8418B9185A445B0032FB94 /* CoreGraphics.framework in Frameworks */,
+				AA8418BB185A445B0032FB94 /* UIKit.framework in Frameworks */,
+				AA8418B7185A445B0032FB94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8418D1185A445B0032FB94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8418D6185A445B0032FB94 /* XCTest.framework in Frameworks */,
+				AA8418D8185A445B0032FB94 /* UIKit.framework in Frameworks */,
+				AA8418D7185A445B0032FB94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA8418AA185A445B0032FB94 = {
+			isa = PBXGroup;
+			children = (
+				AA8418BC185A445B0032FB94 /* DaClaw */,
+				AA8418DB185A445B0032FB94 /* DaClawTests */,
+				AA8418B5185A445B0032FB94 /* Frameworks */,
+				AA8418B4185A445B0032FB94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA8418B4185A445B0032FB94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA8418B3185A445B0032FB94 /* DaClaw.app */,
+				AA8418D4185A445B0032FB94 /* DaClawTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA8418B5185A445B0032FB94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA8418F2185A7B9A0032FB94 /* CoreBluetooth.framework */,
+				AA8418ED185A7B6B0032FB94 /* BLE_Framework */,
+				AA8418B6185A445B0032FB94 /* Foundation.framework */,
+				AA8418B8185A445B0032FB94 /* CoreGraphics.framework */,
+				AA8418BA185A445B0032FB94 /* UIKit.framework */,
+				AA8418D5185A445B0032FB94 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA8418BC185A445B0032FB94 /* DaClaw */ = {
+			isa = PBXGroup;
+			children = (
+				AA841913185B65DB0032FB94 /* Classes */,
+				AA8418F6185B65D00032FB94 /* AFNetworking */,
+				AA8418C5185A445B0032FB94 /* AppDelegate.h */,
+				AA8418C6185A445B0032FB94 /* AppDelegate.m */,
+				AA8418C8185A445B0032FB94 /* Main.storyboard */,
+				AA8418CB185A445B0032FB94 /* ViewController.h */,
+				AA8418CC185A445B0032FB94 /* ViewController.m */,
+				AA8418CE185A445B0032FB94 /* Images.xcassets */,
+				AA8418BD185A445B0032FB94 /* Supporting Files */,
+			);
+			path = DaClaw;
+			sourceTree = "<group>";
+		};
+		AA8418BD185A445B0032FB94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA40F6F5188C45C400B11720 /* background.png */,
+				AA8418BE185A445B0032FB94 /* DaClaw-Info.plist */,
+				AA8418BF185A445B0032FB94 /* InfoPlist.strings */,
+				AA8418C2185A445B0032FB94 /* main.m */,
+				AA8418C4185A445B0032FB94 /* DaClaw-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA8418DB185A445B0032FB94 /* DaClawTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA8418E1185A445B0032FB94 /* DaClawTests.m */,
+				AA8418DC185A445B0032FB94 /* Supporting Files */,
+			);
+			path = DaClawTests;
+			sourceTree = "<group>";
+		};
+		AA8418DC185A445B0032FB94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA8418DD185A445B0032FB94 /* DaClawTests-Info.plist */,
+				AA8418DE185A445B0032FB94 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA8418ED185A7B6B0032FB94 /* BLE_Framework */ = {
+			isa = PBXGroup;
+			children = (
+				AA8418EE185A7B6B0032FB94 /* BLE.h */,
+				AA8418EF185A7B6B0032FB94 /* BLE.m */,
+				AA8418F0185A7B6B0032FB94 /* BLEDefines.h */,
+			);
+			path = BLE_Framework;
+			sourceTree = "<group>";
+		};
+		AA8418F6185B65D00032FB94 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				AA8418F7185B65D00032FB94 /* AFHTTPRequestOperation.h */,
+				AA8418F8185B65D00032FB94 /* AFHTTPRequestOperation.m */,
+				AA8418F9185B65D00032FB94 /* AFHTTPRequestOperationManager.h */,
+				AA8418FA185B65D00032FB94 /* AFHTTPRequestOperationManager.m */,
+				AA8418FB185B65D00032FB94 /* AFHTTPSessionManager.h */,
+				AA8418FC185B65D00032FB94 /* AFHTTPSessionManager.m */,
+				AA8418FD185B65D00032FB94 /* AFNetworking.h */,
+				AA8418FE185B65D00032FB94 /* AFNetworkReachabilityManager.h */,
+				AA8418FF185B65D00032FB94 /* AFNetworkReachabilityManager.m */,
+				AA841900185B65D00032FB94 /* AFSecurityPolicy.h */,
+				AA841901185B65D00032FB94 /* AFSecurityPolicy.m */,
+				AA841902185B65D00032FB94 /* AFURLConnectionOperation.h */,
+				AA841903185B65D00032FB94 /* AFURLConnectionOperation.m */,
+				AA841904185B65D00032FB94 /* AFURLRequestSerialization.h */,
+				AA841905185B65D00032FB94 /* AFURLRequestSerialization.m */,
+				AA841906185B65D00032FB94 /* AFURLResponseSerialization.h */,
+				AA841907185B65D00032FB94 /* AFURLResponseSerialization.m */,
+				AA841908185B65D00032FB94 /* AFURLSessionManager.h */,
+				AA841909185B65D00032FB94 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		AA841913185B65DB0032FB94 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AA841914185B65DB0032FB94 /* sendgrid.h */,
+				AA841915185B65DB0032FB94 /* sendgrid.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA8418B2185A445B0032FB94 /* DaClaw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8418E5185A445B0032FB94 /* Build configuration list for PBXNativeTarget "DaClaw" */;
+			buildPhases = (
+				AA8418AF185A445B0032FB94 /* Sources */,
+				AA8418B0185A445B0032FB94 /* Frameworks */,
+				AA8418B1185A445B0032FB94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaClaw;
+			productName = DaClaw;
+			productReference = AA8418B3185A445B0032FB94 /* DaClaw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA8418D3185A445B0032FB94 /* DaClawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8418E8185A445B0032FB94 /* Build configuration list for PBXNativeTarget "DaClawTests" */;
+			buildPhases = (
+				AA8418D0185A445B0032FB94 /* Sources */,
+				AA8418D1185A445B0032FB94 /* Frameworks */,
+				AA8418D2185A445B0032FB94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA8418DA185A445B0032FB94 /* PBXTargetDependency */,
+			);
+			name = DaClawTests;
+			productName = DaClawTests;
+			productReference = AA8418D4185A445B0032FB94 /* DaClawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA8418AB185A445B0032FB94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Stephen Jernigan";
+				TargetAttributes = {
+					AA8418D3185A445B0032FB94 = {
+						TestTargetID = AA8418B2185A445B0032FB94;
+					};
+				};
+			};
+			buildConfigurationList = AA8418AE185A445B0032FB94 /* Build configuration list for PBXProject "DaClaw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA8418AA185A445B0032FB94;
+			productRefGroup = AA8418B4185A445B0032FB94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA8418B2185A445B0032FB94 /* DaClaw */,
+				AA8418D3185A445B0032FB94 /* DaClawTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA8418B1185A445B0032FB94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8418CF185A445B0032FB94 /* Images.xcassets in Resources */,
+				AA40F6F6188C45C400B11720 /* background.png in Resources */,
+				AA8418C1185A445B0032FB94 /* InfoPlist.strings in Resources */,
+				AA8418CA185A445B0032FB94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8418D2185A445B0032FB94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8418E0185A445B0032FB94 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA8418AF185A445B0032FB94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8418CD185A445B0032FB94 /* ViewController.m in Sources */,
+				AA84190E185B65D00032FB94 /* AFSecurityPolicy.m in Sources */,
+				AA8418C7185A445B0032FB94 /* AppDelegate.m in Sources */,
+				AA84190B185B65D00032FB94 /* AFHTTPRequestOperationManager.m in Sources */,
+				AA84190F185B65D00032FB94 /* AFURLConnectionOperation.m in Sources */,
+				AA84190A185B65D00032FB94 /* AFHTTPRequestOperation.m in Sources */,
+				AA8418C3185A445B0032FB94 /* main.m in Sources */,
+				AA841910185B65D00032FB94 /* AFURLRequestSerialization.m in Sources */,
+				AA84190C185B65D00032FB94 /* AFHTTPSessionManager.m in Sources */,
+				AA84190D185B65D00032FB94 /* AFNetworkReachabilityManager.m in Sources */,
+				AA841911185B65D00032FB94 /* AFURLResponseSerialization.m in Sources */,
+				AA841916185B65DB0032FB94 /* sendgrid.m in Sources */,
+				AA841912185B65D00032FB94 /* AFURLSessionManager.m in Sources */,
+				AA8418F1185A7B6B0032FB94 /* BLE.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8418D0185A445B0032FB94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8418E2185A445B0032FB94 /* DaClawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA8418DA185A445B0032FB94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA8418B2185A445B0032FB94 /* DaClaw */;
+			targetProxy = AA8418D9185A445B0032FB94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA8418BF185A445B0032FB94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8418C0185A445B0032FB94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA8418C8185A445B0032FB94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8418C9185A445B0032FB94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA8418DE185A445B0032FB94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8418DF185A445B0032FB94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA8418E3185A445B0032FB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA8418E4185A445B0032FB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA8418E6185A445B0032FB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DaClaw/DaClaw-Prefix.pch";
+				INFOPLIST_FILE = "DaClaw/DaClaw-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA8418E7185A445B0032FB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DaClaw/DaClaw-Prefix.pch";
+				INFOPLIST_FILE = "DaClaw/DaClaw-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AA8418E9185A445B0032FB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DaClaw.app/DaClaw";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DaClaw/DaClaw-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DaClawTests/DaClawTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AA8418EA185A445B0032FB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DaClaw.app/DaClaw";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DaClaw/DaClaw-Prefix.pch";
+				INFOPLIST_FILE = "DaClawTests/DaClawTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA8418AE185A445B0032FB94 /* Build configuration list for PBXProject "DaClaw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8418E3185A445B0032FB94 /* Debug */,
+				AA8418E4185A445B0032FB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8418E5185A445B0032FB94 /* Build configuration list for PBXNativeTarget "DaClaw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8418E6185A445B0032FB94 /* Debug */,
+				AA8418E7185A445B0032FB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8418E8185A445B0032FB94 /* Build configuration list for PBXNativeTarget "DaClawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8418E9185A445B0032FB94 /* Debug */,
+				AA8418EA185A445B0032FB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA8418AB185A445B0032FB94 /* Project object */;
+}
